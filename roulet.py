@@ -1,2 +1,2 @@
-class roulete: #singleton
+class Roulete: #singleton
     pass

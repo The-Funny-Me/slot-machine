@@ -1,6 +1,6 @@
 from globals import *
 
-class Balance: #observable
+class Balance: #observable singleton
     def __new__(cls) -> None:
         if not(hasattr(cls, "instance")):
             cls.instance = super(Balance, cls).__new__(cls)
